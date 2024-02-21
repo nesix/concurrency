@@ -1,7 +1,11 @@
 {
-  "name": "concurrency",
-  "version": "0.0.1",
+  "name": "@giru/concurrency",
+  "version": "0.0.2",
   "description": "",
+  "repository": {
+    "url": "git+https://github.com/nesix/concurrency.git"
+  },
+  "private": false,
   "author": {
     "name": "Ruslan Gindullin",
     "email": "ruslan@giru.ru"
@@ -31,5 +35,8 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
